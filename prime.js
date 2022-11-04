@@ -1,13 +1,14 @@
-function isPrime(num){
+ let num=14
  let count=0;
     for(i=1;i<=num;i++){
-        if(num%1==0){
+        if(num%i==0){
             count++;
         }
     }
     if (count==2){
-        console.log("Yes");
-    } else{
-        console.log("No")
+        console.log("Yes")
+    }else{
+       console.log("No")
     }
-}
+
+
